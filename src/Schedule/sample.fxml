@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Schedule.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="289.0" prefWidth="457.0">
+         <children>
+            <Button fx:id="addButt" layoutX="405.0" layoutY="21.0" mnemonicParsing="false" onAction="#add" text="Add" />
+            <TextField fx:id="topic" layoutX="9.0" layoutY="21.0" prefHeight="25.0" prefWidth="190.0" />
+            <TextField fx:id="date" layoutX="221.0" layoutY="21.0" prefHeight="25.0" prefWidth="157.0" />
+            <Text layoutX="9.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topic" />
+            <Text layoutX="221.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date-Time" />
+            <TextArea fx:id="result" layoutX="9.0" layoutY="50.0" prefHeight="230.0" prefWidth="438.0" />
+         </children></Pane>
+   </children>
+</GridPane>
