@@ -1,16 +1,25 @@
 package Schedule;
 
-public class Schedule {
-    private String topic;
-    private String date;
+import java.time.LocalDate;
+import java.util.ArrayList;
 
-    public Schedule (String topic,String date){
-        this.topic = topic;
+public class Schedule {
+
+    private ArrayList<Note> noteList;
+    private LocalDate date;
+
+    public Schedule (LocalDate date){
+        noteList = new ArrayList<Note>();
         this.date = date;
     }
 
-    @Override
-    public String toString() {
-        return topic + " " + date;
+    public void addNote(String title){
+        Note note = new Note(title, date);
+        noteList.add(note);
     }
+
+    public ArrayList<Note> getNotes(){
+        return noteList;
+    }
+
 }
