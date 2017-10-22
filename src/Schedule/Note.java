@@ -1,3 +1,6 @@
+/**
+ * @author Kantana Prachumphol 5710451045
+ */
 package Schedule;
 
 import javafx.beans.property.SimpleStringProperty;

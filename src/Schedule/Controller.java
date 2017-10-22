@@ -10,7 +10,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.ArrayList;
-
+/**
+ * @author Kantana Prachumphol 5710451045
+ */
 public class Controller {
     @FXML
     TextField topic;

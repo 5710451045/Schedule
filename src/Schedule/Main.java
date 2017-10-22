@@ -1,4 +1,7 @@
 package Schedule;
+/**
+ * @author Kantana Prachumphol 5710451045
+ */
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
